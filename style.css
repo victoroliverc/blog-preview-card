@@ -1,0 +1,96 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'figtree', sans-serif;
+}
+
+body {
+    background: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    font-size: 1.6rem;
+    width: calc(336px + 4.8rem);
+    height: 520px;
+    background: var(--white);
+    padding: 2.4rem;
+    border: 1px solid var(--black);
+    border-radius: 2.4rem;
+    box-shadow: 8px 8px var(--black);
+    display: grid;
+}
+
+figure {
+    margin-bottom: .8rem;
+}
+
+figure img {
+    border-radius: 1.2rem;
+}
+
+header .tag {
+    background: var(--yellow);
+    padding: .6rem 1.2rem;
+    border-radius: .4rem;
+}
+
+header .tag, footer p {
+    font-weight: 800;
+}
+
+header {
+    font-size: 1.4rem;
+}
+
+header p, main p{
+    margin-top: 1.6rem;
+}
+
+main h1 {
+    font-size: 2.4rem;
+    color: var(--black);
+    cursor: pointer;
+    transition: 100ms;
+}
+
+main h1:hover {
+    color: var(--yellow);
+}
+
+main p {
+    color: var(--grey);
+    line-height: 2.4rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-right: 1.2rem;
+}
+
+
+
+
+
