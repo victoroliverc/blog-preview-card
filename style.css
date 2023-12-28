@@ -34,7 +34,9 @@ body {
     border: 1px solid var(--black);
     border-radius: 2.4rem;
     box-shadow: 8px 8px var(--black);
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 figure {
